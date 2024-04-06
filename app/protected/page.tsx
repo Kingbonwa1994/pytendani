@@ -31,10 +31,10 @@ export default async function ProtectedPage() {
         </nav>
       </div>
 
-      <div className="animate-in flex-1 flex flex-col gap-20 opacity-0 max-w-4xl px-3">
+      <div className="animate-in flex flex-col gap-4 opacity-70 max-w-4xl px-3">
         <Header />
-        <main className="flex-1 flex flex-col gap-6">
-          <h2 className="font-bold text-4xl mb-4">Next steps</h2>
+        <main className="flex-1 flex-col gap-6">
+          <h2 className="font-bold text-white text-4xl mb-4">Next steps</h2>
           <FetchDataSteps />
         </main>
       </div>
